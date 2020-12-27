@@ -1,0 +1,132 @@
+// /*----------  FOOTER  ----------*/
+.footer {
+	background: #232425;
+	// block common style
+	.block {
+		h4 {
+			color: $light;
+			font-size: 16px;
+			margin-bottom: 25px;
+		}
+		// about block
+		&.about {
+			img{
+				margin-bottom: 25px;
+			}
+			p{
+				line-height: 26px;
+			}
+		}
+		ul {
+			li {
+				margin-bottom: 10px;
+				a{
+					display: block;
+					font-size: 14px;
+					color: #797979;
+					&:hover{
+						color: $primary-color;
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		// terms list
+		ul.terms-list{
+			margin-top: 10px;
+			li{
+				a{
+					padding-right:10px;
+				}
+			}
+		}
+	}
+	// block 2 common styles
+	.block-2{
+		padding: 18px 30px;
+		background: #46484A;
+		border-radius: 2px;
+		// app promotion
+		&.app-promotion{
+			margin-bottom: 20px;
+			p{
+				margin-left: 20px;
+				color: $light;
+			}
+		}
+		// discount coupon
+		&.discount-coupon{
+			p{
+				color: $light;
+				a{
+					color: $primary-color;
+				}
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+// /*----------  FOOTER BOTTOM  ----------*/
+.footer-bottom {
+	position: relative;
+	background: #363839;
+	padding: 25px 0;
+	@include mobile {
+		text-align: center;
+	}
+	// copyright
+	.copyright{
+		p{
+			color:$gray;
+			margin-bottom: 0;
+		}
+	}
+
+	.social-media-icons{
+		margin-right: -20px;
+		@include desktop {
+			margin-right: 0;
+		}
+		li{
+			display: inline-block;
+			a{
+				color: #848484;
+				padding: 0 20px;
+				&:hover{
+					color: $light !important;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	
+}
+
+// scroll-top-to button
+.scroll-top-to{
+	position: fixed;
+	right:20px;
+	bottom: 50px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: $primary-color;
+	color: $light;
+	transition: 0.3s;
+	z-index: 999556;
+	cursor: pointer;
+	display: none;
+	&:hover {
+		background: #333;
+	}
+
+	@include tablet {
+		bottom: 15px;
+		right: 15px;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+}

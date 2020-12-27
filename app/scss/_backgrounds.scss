@@ -1,0 +1,27 @@
+
+.bg-light {
+  background:$light;
+}
+.bg-gray {
+	background: #F5F5F5;
+}
+
+.bg-1 {
+  background: url('../images/home/hero.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.bg-2 {
+  background: url(../images/subscription/subscription-back.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.bg-3 {
+  background: url(../images/call-to-action/cta-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-4{
+  background: $primary-color;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900');
+body {
+  line-height: 1.5;
+  font-family: $primary-font;
+}
+p,li,input, select, button {
+  font-family: $primary-font;
+  color: $text-color;
+  font-size:14px;
+  font-weight:400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $primary-font;
+  font-weight: 600;
+  color: $heading-color;
+}
+
+p{
+  color: $text-color;
+}
+
+h1 {
+  font-size:35px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size:20px;
+}
+h4 {
+  font-size:18px;
+}
+p {
+  color:#888;
+}
+
+label{
+  font-size: 14px;
+  letter-spacing: 0;
+  color: $dark-gray;
+}

@@ -1,0 +1,69 @@
+// Tab Styles
+.nav-pills{
+	.nav-link{
+		font-size: 16px;
+		@include mobile {
+			font-size: 12px;
+		}
+	}
+	&.with-background{
+		.nav-item{
+			margin-right: 10px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		.nav-link{
+			background: white;
+			padding: 10px 0;
+			box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+			&:hover{
+				color: $primary-color;
+			}
+			&.active{
+				background: $primary-color;
+				position: relative;
+				-webkit-transition: 0s;
+				   -moz-transition: 0s;
+				    -ms-transition: 0s;
+				     -o-transition: 0s;
+				        transition: 0s;
+				&:hover{
+					color: $light;
+				}
+				&:after{
+					content: '';
+				    position: absolute;
+				    left: 42%;
+				    top: 100%;
+				    width: 0;
+				    height: 0;
+				    border-left: 10px solid transparent;
+				    border-right:10px solid transparent;
+				    border-top: 10px solid $primary-color;
+				    clear: both;
+				    transition: all .2s ease-in 0s;
+				}
+			}
+		}
+	}
+	&.transparent{
+		.nav-link{
+			background: transparent;
+			margin-bottom: 20px;
+			color: $dark-gray;
+			font-size: 24px;
+			@include tablet {
+				font-size: 17px;
+			}
+			@include mobile {
+				font-size: 12px;
+			}
+			&.active{
+				background: transparent;
+				color: $text-color;
+			}	
+		}
+	}
+
+}

@@ -1,0 +1,175 @@
+.user-dashboard-menu {
+	li {
+		&.active {
+			a {
+				background:$primary-color;
+				color:$white;
+				&:hover {
+					color:$white;
+				}
+			}
+		}
+		margin-bottom:5px;
+		a {
+			padding:10px;
+			font-size:15px;
+			display: block;
+			font-weight: 600;
+			color:#555;
+			&:hover {
+				color:$primary-color;
+				span {
+					background: $primary-color;
+					color:$white;
+				}	
+			}
+			i {
+				margin-right:5px;
+			}
+			span {
+				float:right;
+				background: $light-border;
+				float: right;
+				font-size: 10px;
+			    border-radius: 8px;
+			    padding: 3px 8px;
+			    color: #84919B;
+			}
+		}
+	}
+
+}
+
+.user-dashboard-profile {
+	text-align: center;
+	.profile-thumb img {
+		width: 130px;
+		height:auto;
+		border:5px solid $light-border;
+	}
+	h4 {
+		margin-top:10px;
+		font-size:18px;
+		font-weight: 600;
+	}
+	.member-time {
+		color:#888;
+		font-size:12px;
+		margin-bottom:3px;	
+	}
+	.btn-contact {
+		background: #1FCA6B;
+	}
+	.btn-offer {
+		background:#373C4D;
+	}
+}
+
+
+.dashboard-container {
+	.product-dashboard-table {
+		thead {
+			th {
+				font-size:14px;
+				text-transform: uppercase;
+				letter-spacing: .4px;
+			}
+		}
+				td {
+					vertical-align: middle;
+					padding:40px 0;
+				}
+		}
+		.product-thumb {
+			width: 15%;
+		}
+		tbody {
+			tr {
+				&:hover {
+					.action {
+						a {
+							color: $white;
+								&.edit {
+									background: $success;
+								}
+								&.view {
+									background: #50c6e9;
+								}
+								&.delete {
+									background: $alert;
+								}
+						}
+					}
+				}
+			}
+		}
+		.product-details {
+			width: 45%;
+			span {
+				display: block;
+				font-size:14px;
+				color:$dark-gray;
+				strong {
+					color:#666;
+					width: 30%;
+					display: inline-block;
+				}
+			}
+			.title {
+				font-size:16px;
+			}
+			.status {
+				&.active {
+					color: $success;
+				}
+			}
+		}
+		.product-category {
+			width: 15%;
+			text-align: center;
+		}
+		.action {
+			width: 20%;
+			text-align: center;
+			a {
+				width: 40px;
+				height:40px;
+				border-radius: 40px;
+				font-size:14px;
+				color:#363b4d;
+				text-align: center;
+				display: inline-block;
+				&:hover {
+					color: $white;
+					&.delete {
+						background: $alert;
+					}
+				}
+				i {
+					line-height: 40px;
+				}
+			}
+			.list-inline {
+				.list-inline-item:not(:last-child) {
+					margin-right:0px;
+				}
+			}
+			.edit {
+				background: #f7f7f7;
+			}
+			.view {
+				background: #f7f7f7;
+			}
+			.delete {
+				background: #f7f7f7;
+			}
+		}
+	}
+
+
+
+
+
+
+
+

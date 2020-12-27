@@ -1,0 +1,53 @@
+.popup{
+	.block-1{
+		padding: 20px 80px;
+		background: #F6F8FA;
+		.media{
+			.img-content{
+				height: 80px;
+				width: 130px;
+				background: $light;
+				display: flex;
+				-webkit-justify-content: center;
+				        justify-content: center;
+				margin-right: 20px;
+				box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1); 
+			}
+			.media-body{
+				h4{
+					font-size: 24px;
+				}
+			}
+		}
+	}
+	.block-2{
+		padding: 50px 80px;
+		background: $light;
+		h6{
+			margin-bottom: 20px;
+		}
+		p{
+			width: 100%;
+			text-align: center;
+			line-height: 60px;
+			text-transform: uppercase;
+			background: #fff6f7;
+			border: 2px dashed $primary-color;
+			-webkit-border-radius: 3px;
+			        border-radius: 3px;
+			margin-bottom: 40px;
+		}
+		form{
+			.form-group{
+				label{
+					display: block;
+					color: $text-color;
+				}
+				a{
+					float: right;
+					margin-top: -5px;
+				}
+			}
+		}
+	}
+}

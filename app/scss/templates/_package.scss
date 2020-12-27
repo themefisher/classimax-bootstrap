@@ -1,0 +1,23 @@
+.package-content {
+    transition: all linear 0.3s;
+    .package-content-heading {
+        i {
+            font-size: 50px;
+            padding-bottom: 25px;
+            color: $primary-color;
+        }
+        span {
+            font-size: 30px;
+        }
+    }
+    ul {
+        li {
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+    &:hover {
+        box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
+    }
+}

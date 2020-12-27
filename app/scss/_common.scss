@@ -1,0 +1,480 @@
+/**
+ *
+ * Base Elements
+ *
+ */
+
+
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  transition: all .3s ease-in 0s;
+  color: $black;
+}
+
+iframe {
+  border: 0;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: $primary-color;
+
+}
+
+
+
+.form-control {
+  border-radius: 2px;
+  height: 50px;
+  background-color: transparent;
+  color: $text-color;
+  box-shadow: none;
+  font-size: 15px;
+
+  &:focus {
+    color: $text-color;
+    box-shadow: none;
+    border: 1px solid $primary-color;
+    background-color: transparent;
+  }
+}
+
+textarea.form-control {
+  padding: 20px;
+}
+
+// Placeholder Color Change
+.form-control::-webkit-input-placeholder {
+  color: $text-color;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  color: $text-color;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  color: $text-color;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  color: $text-color;
+}
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  color: $text-color;
+}
+
+/* Microsoft Edge */
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+
+
+.btn:active,
+.btn:focus {
+  color: #ddd;
+  box-shadow: none;
+}
+
+
+.nice-select-white .nice-select:after {
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+
+.w-100 {
+  width: 100%;
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0;
+}
+
+.bg-shadow {
+  background-color: $light;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, .08);
+  padding: 20px;
+}
+
+
+
+.section {
+  padding: 100px 0;
+}
+
+.section-sm {
+  padding: 70px 0;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 75px;
+  text-align: center;
+
+  h2 {
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    &:before {
+      content: " ";
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      bottom: -24px;
+      left: 0;
+      right: 0;
+      width: 127px;
+      height: 2px;
+      background-color: #e0e0e0;
+    }
+
+    &:after {
+      content: " ";
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      bottom: -25px;
+      left: 0;
+      right: 0;
+      width: 40px;
+      height: 5px;
+      background-color: $primary-color;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    color: $dark-gray;
+  }
+}
+
+.user-profile,
+.dashboard {
+  padding-top: 50px;
+}
+
+
+
+// Overlay
+.overly {
+  position: relative;
+
+  &:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.51);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.page-wrapper {
+  padding: 70px 0;
+}
+
+// Social Media Icons 
+.social-media-icons {
+  ul {
+    li {
+      display: inline-block;
+
+      a {
+        font-size: 18px;
+        color: #333;
+        display: inline-block;
+        padding: 7px 12px;
+        color: $light;
+      }
+
+      .twitter {
+        background: #00aced;
+      }
+
+      .facebook {
+        background: #3b5998;
+        padding: 7px 18px;
+      }
+
+      .googleplus {
+        background: #dd4b39;
+      }
+
+      .dribbble {
+        background: #ea4c89;
+      }
+
+      .instagram {
+        background: #bc2a8d;
+      }
+    }
+  }
+}
+
+
+
+/**
+ *
+ * Button Styles
+ *
+ */
+
+.btn {
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.btn-main {
+  background: $primary-color;
+  color: $light;
+
+  &:hover {
+    background: darken($primary-color, 20%);
+    color: $light;
+  }
+}
+
+.btn-main-sm {
+  @extend .btn-main;
+  padding: 6px 20px;
+  font-size: 12px;
+}
+
+.btn-secondary {
+  background: $light;
+  color: $black;
+  border-color: $light;
+
+  &:hover {
+    background: $primary-color;
+    color: $light;
+    border-color: $light;
+  }
+}
+
+.btn-transparent {
+  background: transparent;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background: darken($primary-color, 20%);
+    color: $light;
+  }
+}
+
+.btn-transparent-white {
+  background: transparent;
+  color: $light;
+  border: 1px solid $light;
+
+  &:hover {
+    background: $light;
+    color: $dark-gray;
+  }
+}
+
+
+
+.btn-group {
+  .btn {
+    i {
+      font-size: 16px;
+      line-height: 40px;
+    }
+
+    &:focus {
+      color: #d0d0d0;
+    }
+  }
+
+  .btn-transparent {
+    color: #d0d0d0;
+    border: 1px solid #d0d0d0;
+    padding: 0;
+    width: 40px;
+
+    &:hover {
+      color: #e6b322;
+      background: transparent;
+    }
+  }
+}
+
+.btn-active {
+  color: #e6b322;
+}
+
+
+
+/**
+ *
+ * Card Styles
+ *
+ */
+
+.card-main {
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.mb-30 {
+  margin-bottom: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+
+.border-bottom {
+  border-bottom: 1px solid $border-color;
+}
+
+.bl-none {
+  border-left: none !important;
+}
+
+.alt-color {
+  color: #c7c7c7;
+}
+
+.success {
+  color: #1fcc2e;
+}
+
+
+// Page Title Styles
+.page-title {
+  background: $primary-color;
+  padding: 35px 0;
+
+  h3 {
+    color: $light;
+    font-size: 42px;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+}
+
+// Pagination
+ul.pagination {
+  li {
+    margin-right: 10px;
+
+    a {
+      font-weight: 600;
+      border-radius: 3px !important;
+      font-size: 16px;
+      padding: 0;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-color: transparent;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+      color: $text-color;
+
+      &:hover {
+        background-color: $primary-color !important;
+        color: $light !important;
+        border-color: transparent !important;
+      }
+    }
+  }
+
+  .active {
+    a {
+      background-color: $primary-color !important;
+      color: $light !important;
+      border-color: transparent !important;
+    }
+  }
+}
+
+
+.nice-select .list {
+  width: 100%;
+}
+
+.slick-slide:focus {
+  outline: 0;
+}
+
+
+
+
+.page-search {
+  background: $primary-color;
+  padding: 30px 0;
+
+  .advance-search {
+    .form-group {
+      margin-bottom: 0;
+    }
+
+    .form-control {
+      border: 1px solid $white;
+      color: $white;
+    }
+
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: $white;
+    }
+
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: $white;
+    }
+
+    :-ms-input-placeholder {
+      /* IE 10+ */
+      color: $white;
+    }
+
+    :-moz-placeholder {
+      /* Firefox 18- */
+      color: $white;
+    }
+
+  }
+}

@@ -1,0 +1,87 @@
+// Pagination
+ul.pagination{
+  li{
+    margin-right: 10px;
+    a{
+      -webkit-border-radius: 3px !important;
+            border-radius: 3px !important;
+      font-size: 16px;
+      padding: 0;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      text-align: center;
+      border-color: transparent;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1); 
+      color: $text-color;
+    }
+  }
+  .active{
+    a{
+        background-color: $primary-color !important;
+        color: $light !important; 
+        border-color: transparent !important;
+    }
+  }
+}
+
+// Social Circle Icons
+ul.social-circle-icons{
+	li{
+		margin-right: 7px;
+		&:last-child{
+			margin-right: 0;
+		}
+		a{
+			display: block;
+			font-size: 15px;
+			line-height: 38px;
+			color: $primary-color;
+			height: 38px;
+			width: 38px;
+			border: 2px solid $primary-color;
+			background: $light;
+			-webkit-border-radius: 100%;
+			        border-radius: 100%;
+			&:hover{
+				text-decoration: none;
+				color: $light;
+				background: $primary-color;
+			}
+		}
+	}
+}
+
+// /*----------  Category List  ----------*/
+
+// /*----------  Store List  ----------*/
+.store-list{
+	h4{
+		font-size: 20px;
+		margin-bottom: 20px;
+		letter-spacing: 0.01em;
+		color: $text-color;
+	}
+	ul{
+		list-style: none;
+		li{
+			display: block;
+			font-size: 15px;
+			margin-bottom: 8px;
+			a{
+				display: block;
+				color: $dark-gray;
+				&:hover{
+					text-decoration: underline;
+					color: $primary-color;
+				}
+			}
+		}
+	}
+	@include tablet {
+		margin-bottom: 15px;
+	}
+	.btn{
+		margin-top: 35px;
+	}
+}

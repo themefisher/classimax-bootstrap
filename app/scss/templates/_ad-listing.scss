@@ -1,0 +1,29 @@
+.advt-post {
+  form {
+    fieldset {
+      input {
+        &:focus {
+          outline: 0;
+        }
+      }
+
+      label {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .choose-file {
+    cursor: pointer;
+    display: block;
+    border: 3px dashed #eaedef;
+
+    .select-files {
+      border-radius: 45px;
+    }
+  }
+
+  textarea {
+    height: 200px;
+  }
+}

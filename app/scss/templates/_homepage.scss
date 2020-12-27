@@ -1,0 +1,70 @@
+
+// /*----------  Submit Coupon Section  ----------*/
+.submit-coupon{
+	// custom form control styles
+	.form-control,.sbHolder{
+		margin-bottom: 30px;
+	}
+	button{
+		margin-top: 20px;	
+	}
+}
+// /*----------  Deal Category Section  ----------*/
+.deals-categories{
+	padding: 100px 0 0 0;
+	.border-bottom{
+		padding-bottom: 70px;
+	}
+}
+
+// /*----------  HERO AREA SECTION  ----------*/
+.hero-area-2 {
+	@include tablet {
+		padding: 60px 0;
+	}
+	// hero contents
+	.content-block {
+		padding-bottom: 30px;
+	}
+	form{
+		margin-bottom: 13px;
+	}
+	// coupon search
+	.coupon-ig{
+		margin-bottom: 6px;
+		input{
+			background: $primary-color;
+			color:$light;
+			border-color: transparent;
+		}
+		.input-group-addon{
+			background: $primary-color;
+			color:$light;
+			border-left: none;
+			i{
+				font-size: 17px;
+				padding-right: 7px;
+			}
+		}
+		// form control placeholder color change
+		.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+		.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+		.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+		.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+		.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+	}
+	// category search
+	.category-search{
+		.form-control{
+			background: $light;
+		}
+	}
+}
+
+.best-deal{
+	.block{
+		.tab-content{
+			margin-top: 30px;
+		}
+	}
+}

@@ -1,0 +1,85 @@
+// /* Call to Action Styles */
+.call-to-action{
+	// contents
+	.content-holder{
+		h2{
+			color: $light;
+			font-weight: 600;
+		}
+		ul {
+			li {
+				a {
+					@include mobile-xs {
+						font-size: 14px;
+						padding: 12px;
+					}
+				}
+			}
+		}
+		// buttons styles
+		.store-btn-holder{
+			margin-top: 35px;
+			@include tablet {
+				margin-top: 25px;
+				a{
+					&:first-child{
+						img{
+							margin-bottom: 10px;
+						}
+					}
+				}
+			}
+			a{
+				margin-right: 15px;
+			}
+		}
+	}
+}
+// /* SUBSCRIPTION SECTION STYLE */
+.subscription{
+	position: relative;
+	padding: 80px 0;
+	// Content Styles
+ 	.content-block{
+ 		h2{
+ 			font-size: 43px;
+ 			letter-spacing: 0.05em;
+ 			text-align: center;
+ 			color: $light;
+ 			margin-bottom: 40px;
+ 			@include tablet {
+ 				font-size: 30px;
+ 			}
+ 		}
+ 		// Input Styles
+ 		.form-control{
+ 			display: inline-block;
+ 			background-color: $light; 
+ 		}
+ 		input{
+ 			width: 69%;
+ 		}
+ 		button{
+ 			margin-left: 10px;
+ 			width: 30%;
+ 			@include tablet {
+ 				width: auto;
+ 			}
+ 		}
+ 	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+.contact-us-content {
+    h1 {
+        font-size: 66px;
+        @include desktop {
+            font-size: 45px;
+        }
+        @include tablet {
+            font-size: 40px;
+        }
+        @include mobile {
+            font-size: 36px;
+        }
+        @include mobile-xs {
+            font-size: 36px;
+        }
+    }
+}
+
+form {
+    textarea {
+        height: 200px;
+    }
+}

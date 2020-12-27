@@ -1,0 +1,16 @@
+.ad-listing-list {
+    transition: all linear 0.3s;
+    &:hover {
+        box-shadow: 0 0 15px 0 rgba(0,0,0,0.20);
+    }
+}
+.product-ratings {
+    ul {
+        li {
+            i {
+                font-size: 18px;
+                color: #5672f9;
+            }
+        }
+    }
+}
