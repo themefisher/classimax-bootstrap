@@ -38,7 +38,7 @@ npm install --global gulp-cli
 Or visit original [docs](https://gulpjs.com/docs/en/getting-started/quick-start)
 
 #### Run Theme
-After succesfully install those dependencies, open this theme with any IDM [[VS Code](https://code.visualstudio.com/) recommended], and then open internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+After succesfully install those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
 * Install node package modules
 ```
@@ -55,7 +55,7 @@ After that, it will open up a preview of the template in your default browser, w
 
 <!-- reporting issue -->
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Megakit Template. Please Search [existing issues](https://github.com/themefisher/Classimax-Classified-Marketplace-Template/issues). It’s possible someone has already reported the same problem.
+We use GitHub Issues as the official bug tracker for the Classimax Template. Please Search [existing issues](https://github.com/themefisher/Classimax-Classified-Marketplace-Template/issues). It’s possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Classimax-Classified-Marketplace-Template/issues).
 
 <!-- support -->
@@ -64,8 +64,20 @@ If you have questions or need help integrating the product please [contact us](m
 
 <!-- licence -->
 ## License
-Copyright &copy; 2020 Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright &copy; 2021 Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/Classimax-Classified-Marketplace-Template/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
+
+<!-- resources -->
+## Resources
+Some third-party plugins that we used to build this template. Please check their licence.
+* **Bootstrap v4.5**: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+* **Jquery v3.5.1**: https://jquery.com/download/
+* **Google Fonts**: http://fonts.google.com/
+* **Font Awesome Free**: https://fontawesome.com/
+* **Nice Select**: https://jqueryniceselect.hernansartorio.com/
+* **Slick**: https://kenwheeler.github.io/slick/
+* **Raty-Fa**: https://github.com/Jacob87/raty-fa
+* **Tether**: http://tether.io/
