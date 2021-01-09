@@ -12,6 +12,30 @@ Here we are offering Classimax, is the most popular free Bootstrap classified we
 
 👉🏻[View Live Preview](https://demo.themefisher.com/classimax/)
 
+<!-- pages -->
+## Pages
+* **Homepage**
+* **404**
+* **About Us**
+* **Ad Listing**
+* **Category**
+* **Ad List View**
+* **Package**
+* **Store**
+* **Single Product**
+* **User Profile**
+* **Dashboard**
+* **Dashboard Archived Ads**
+* **Dashboard Favourite Ads**
+* **Dashboard My Ads**
+* **Dashboard Pending Ads**
+* **Blog**
+* **Blog Details**
+* **Login**
+* **Register**
+* **Terms Condition**
+* **Contact**
+
 
 <!-- download -->
 ## Download And installation
