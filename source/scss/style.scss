@@ -1,76 +1,57 @@
-/*
-THEME: Classimax | Classified Marketplace Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
+@import "variables.scss";
 
-HOMEPAGE: https://themefisher.com/products/classimax-bootstrap-classified-responsive-theme/
-DEMO: https://demo.themefisher.com/classimax/
-GITHUB: https://github.com/themefisher/Classimax-Classified-Marketplace-Template
+@import "media-queries.scss";
 
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
+@import "typography.scss";
 
-@import 'variables.scss';
+@import "tabs.scss";
 
-@import 'media-queries.scss';
+@import "lists.scss";
 
-@import 'typography.scss';
+@import "common.scss";
 
-@import 'tabs.scss';
+@import "backgrounds.scss";
 
-@import 'lists.scss';
+@import "templates/navigation.scss";
 
-@import 'common.scss';
+@import "templates/hero-area.scss";
 
-@import 'backgrounds.scss';
+@import "templates/category-slider.scss";
 
-@import 'templates/navigation.scss';
+@import "templates/user-dashboard.scss";
 
-@import 'templates/hero-area.scss';
+@import "templates/homepage.scss";
 
-@import 'templates/category-slider.scss';
+@import "templates/category.scss";
 
-@import 'templates/user-dashboard.scss';
+@import "templates/products.scss";
 
-@import 'templates/homepage.scss';
+@import "templates/widgets.scss";
 
-@import 'templates/category.scss';
+@import "templates/header.scss";
 
-@import 'templates/products.scss';
+@import "templates/call-to-action.scss";
 
-@import 'templates/widgets.scss';
+@import "templates/store.scss";
 
-@import 'templates/header.scss';
+@import "templates/store-single.scss";
 
-@import 'templates/call-to-action.scss';
+@import "templates/blog.scss";
 
-@import 'templates/store.scss';
+@import "templates/popup.scss";
 
-@import 'templates/store-single.scss';
+@import "templates/ad-listing.scss";
 
-@import 'templates/blog.scss';
+@import "templates/ad-list-view.scss";
 
-@import 'templates/popup.scss';
+@import "templates/terms-condition.scss";
 
-@import 'templates/ad-listing.scss';
+@import "templates/package.scss";
 
-@import 'templates/ad-list-view.scss';
+@import "templates/about-us.scss";
 
-@import 'templates/terms-condition.scss';
+@import "templates/contact-us.scss";
 
-@import 'templates/package.scss';
+@import "templates/404.scss";
 
-@import 'templates/about-us.scss';
-
-@import 'templates/contact-us.scss';
-
-@import 'templates/404.scss';
-
-@import 'templates/footer.scss';
-
-
-
-
-
+@import "templates/footer.scss";
